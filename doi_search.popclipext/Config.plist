@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Name</key>
+	<string>DOI Search</string>
+	<key>Extension Identifier</key>
+	<string>com.brandon.popclip.extension.doi-search</string>
+	<key>Extension Description</key>
+	<string>Open DOI in a web browser with the selected text.</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>URL</key>
+			<string>http://dx.doi.org.oca.korea.ac.kr/{popclip text}</string>
+			<key>Image File</key>
+			<string>gtrans.png</string>
+			<key>Title</key>
+			<string>DOI search</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+		</dict>
+	</array>
+</dict>
+</plist>
